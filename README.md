@@ -54,10 +54,11 @@ TP53
 BRCA1
 EGFR
 
-6. Run the script:
-  ```bash
-  python cancervar_automation_bot.py
+Run the script:
 
+```bash
+python cancervar_automation_bot.py
+```
 Check the current directory for the file cancervar_results.xlsx containing the query results.
 
 License
@@ -68,8 +69,5 @@ The script makes use of the Selenium library for web automation.
 Data is processed and saved using Pandas and Openpyxl.
 
 Feel free to contribute to this repository by opening issues or submitting pull requests.
-
-
-
 
 
