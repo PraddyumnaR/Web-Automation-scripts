@@ -32,6 +32,7 @@ The CancerVar Automation Bot is a Python script that automates the process of up
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 3. Install the required packages:
+   ```bash
    pip install -r requirements.txt
 4. Usage
    Ensure you have the Chrome browser installed and the ChromeDriver executable available in your system's PATH.
@@ -39,6 +40,7 @@ The CancerVar Automation Bot is a Python script that automates the process of up
    Prepare a text file (genes.txt) with a list of HGNC gene symbols, one per line.
 
 5. Run the script:
+   ```bash
    python cancervar_automation_bot.py
 
 The script will automatically upload the gene names, perform the query, and save the results in an Excel file named cancervar_results.xlsx.
@@ -52,11 +54,10 @@ TP53
 BRCA1
 EGFR
 
-Run the script:
+6. Run the script:
+  ```bash
+  python cancervar_automation_bot.py
 
-bash
-
-python cancervar_automation_bot.py
 Check the current directory for the file cancervar_results.xlsx containing the query results.
 
 License
